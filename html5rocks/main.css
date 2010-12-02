@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Droid Sans'), url('http://themes.googleusercontent.com/font?kit=POVDFY-UUf0WFR9DIMCU8g') format('truetype');
+}
+@font-face {
+  font-family: 'Droid Sans Mono';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Droid Sans Mono'), url('http://themes.googleusercontent.com/font?kit=ns-m2xQYezAtqh7ai59hJViAdY2Sz5g753dOuB6TK0I') format('truetype');
+}
+
+body {
+    font: 16px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;   
+    background: #778;
+}
+
+#slides > div {
+    background-color: #eee;
+    background: -webkit-gradient(linear, left bottom, left top, from(#bbd), to(#fff));
+    background: -moz-linear-gradient(bottom, #bbd, #fff);
+    background: linear-gradient(bottom, #bbd, #fff);
+}
+
+#slides > div:nth-child(even) {
+    -moz-border-radius: 20px 0;
+    -khtml-border-radius: 20px 0;
+    border-radius: 20px 0; /* includes Opera 10.5+ */
+    -webkit-border-top-left-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+}
+
+#slides>div:nth-child(odd) {
+    -moz-border-radius: 0 20px;
+    -khtml-border-radius: 0 20px;
+    border-radius: 0 20px;
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+}
+ 
+h1 { letter-spacing: -2px; font-size:96px; }
+h2 { font-family: 'Droid Sans'; margin-top:-5px; font-size:40px; letter-spacing: -1px; }
+ul { font-size:30px; margin-left:25px; }
+
+header {
+    font-family: 'Droid Sans';
+    font-size: 50px;
+    letter-spacing: -0.05em;
+    text-shadow: rgba(0, 0, 0, 0.199219) 0px 2px 5px;
+}
+
+a { 
+    display: inline-block;
+    text-decoration: none;
+    line-height: 110%;
+    border-bottom: 2px solid #3f3f3f;   
+}
+

@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Easy Presentation</title>
+    <link href="core/core.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link href="night/main.css" rel="stylesheet" type="text/css" media="screen"/>
+    <style>
+        a { font-size:20px; color:#222; text-decoration:none; }
+        a.selected { border-bottom:1px solid black; }
+    </style>
+  </head>
+  <body>
+    <div id="holder">
+        <div id="slides">
+            <div>
+                <hgroup>
+                  <h1 class="">arrow key</h1>
+                  <h2>To Blow Your Mind!</h2>
+                  <a href="#html5rocks" id="html5rocks" class="theme">html 5 rocks!</a>
+                  <a href="#html5rocks" id="clean" class="theme">Clean</a>
+                  <a href="#html5rocks" id="night" class="theme">Night</a>
+                  <a href="#html5rocks" id="gradient" class="theme">Apple</a>
+                </hgroup>
+            </div>
+            <div>
+                <hgroup>
+                  <img src="images/future.jpg"/>
+                  <h1>a picture!</h1>
+                  <h2>I love that movie</h2>
+                </hgroup>
+            </div>
+            <div>
+              <header>Awesome List</header>
+              <section>
+                <ul>
+                    <li class="step1 blackify">With tons of awesome list items</li>
+                    <li class="step1 leftSlide">This will slide left</li>
+                    <li class="step2 rightSlide">wait, what?
+                        <ul><li>sub-lists too?!!?!?!</li></ul>
+                </ul>
+              </section>
+            </div>
+            <div>
+              <header>Second List</header>
+              <section>
+                <ul>
+                    <li>this will be here</li>
+                    <li class="step1 fold">Lists are so easy to make!!</li>
+                    <li class="step2 blackify">this slides in from the left, what?
+                        <ul><li>sub-lists too?!!?!?!</li></ul>
+                </ul>
+              </section>
+            </div>
+        </div>
+    </div>
+    <script src="core/jquery.js"></script>
+    <script src="core/color.js"></script>
+    <script src="core/effects.js"></script>
+    <script src="core/mousewheel.js"></script>
+    <script src="core/slides.js?v=2"></script>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+@font-face { font-family: 'LeagueGothic'; src: url(league.otf); }
+
+body {
+    background: #222
+}
+
+#slides > div { 
+    /*round the bottom*/
+    /* border-radius:0px 0px 20px 20px; */
+}
+
+header { 
+    font-family: Helvetica, “Helvetica Neue”, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    padding: 64px 0 0px 84px;
+    color: #222;
+    letter-spacing: -2px;
+    text-shadow: 0 2px 2px #fff;
+}
+
+h1 {
+    color: black;
+    letter-spacing: -3px;
+    font-size: 98px;
+    margin: 210px 0 12px 0;
+    font-family: Helvetica, “Helvetica Neue”, Arial, sans-serif;
+    text-shadow: 0 1px 3px #fff;
+    font-weight: bold
+}
+
+h2 {
+    font-family: Helvetica, “Helvetica Neue”, Arial, sans-serif;
+    font-size: 28px;
+    color: #777;
+    letter-spacing: -1px;
+    text-shadow: 0 1px 3px #fff;
+}
+
+h3 {
+    font-family: Helvetica, “Helvetica Neue”, Arial, sans-serif;
+    font-size: 28px;
+    color: #777;
+    letter-spacing: -1px;
+    text-shadow: 0 1px 3px #fff;
+}
+
+h4 {
+    font-family: Helvetica, “Helvetica Neue”, Arial, sans-serif;
+    font-size: 16px;
+    color: #888;
+    font-weight:normal;
+    padding: 12px 0;
+    margin: 0 0 0 84px;
+    text-shadow: 0 1px 3px #fff;
+}
+
+ul {
+    list-style: square;    
+}
+
+li {
+    font-size: 32px;
+    font-family: Helvetica, “Helvetica Neue”, Arial, sans-serif;
+    color: #666;
+    text-shadow: 0 1px 1px #fff;
+    padding: 0;
+    margin: 12px 0 12px 84px;
+    line-height: 42px;
+}
